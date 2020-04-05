@@ -25,7 +25,7 @@ while True:
     input("Press ENTER to stop stopwatch")
     end = time.time()    #stops time
     el = round(end - begin, 2)
-    av.append(el)   #makes a list of all times
+    av.append(el)   #Makes a list of all times
     print(el)
     print("Average: ", round(average(av), 2), "\n")
 
